@@ -1,0 +1,19 @@
+QIntegrantes:
+Cusi Osccorima Edgar Raul
+Granados Pretel Carlos Eduardo
+Laura Antezana Sebastian Timo
+Vilca Ramirez Alfredo Curt
+
+Notas para el Programa:
+-Para que el programa funcione, se deben instalar los plugins que tambien estaran en los archivos adjuntos.
+-Hay dependencias que probablemente se encuentren con los simbolos de advertencia y en el frame de archivos de los import haya errores, se debe de instalar las dependencias manualmente ya que no se encontraron en el repositorio online de maven. Para instalarlas se dara clic derecho en las dependencias que tengan el simbolo de advertencia y luego clicl en "Manually install artifact" y elegiremos el archivo .jar que le corresponda. Estos archivos .jar estaran en el package "libreriasParaMaven".
+-Tambien una vez instalado los plugins, se debera crear una conexion al mysl para que se conecte el jasperreports, esto se hara desde services.
+-Es importante que para no tener inconvenientes, el nombre de la base de datos se llame "restaurante".
+-En el caso de que salga un error donde nos diga que no se encontro el "LOGO_1.png", se debera eliminar la imagen que esta en reporteArchivo.jrxml, en el package restauranteReporte, luego de eliminar se debera insertar una nueva imagen la cual esta en el package img, la cual se llama LOGO_1.
+
+Se adjuntaran:
+*El archivo para la base de datos.
+*Los plugins necesarios.
+*El programa en si.
+*El video de la explicacion y ejecucion de las funcionalidades.
+*Algunos archivos pdf de las boletas y reportes listos para imprimir.
